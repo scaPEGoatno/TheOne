@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/home_strHpTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:text="VOL,2015"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="@dimen/home_pager_marginRight"
+                android:paddingRight="@dimen/home_pager_marginRight">
+
+                <ImageView
+                    android:id="@+id/homeIv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="320dp"
+                    android:src="@drawable/testt"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/home_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/home_pager_marginRight"
+                android:text="纸飞机"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/home_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/home_pager_marginRight"
+                android:text="纸飞机"
+                android:textSize="12dp"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:id="@+id/dateLy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/home_pager_marginRight"
+                    android:layout_marginTop="15dp">
+
+                    <TextView
+                        android:id="@+id/home_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="30"
+                        android:textColor="#00BCD4"
+                        android:textSize="30dp"/>
+
+                    <TextView
+                        android:id="@+id/home_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/home_day"
+                        android:text="2015,07"
+                        android:textSize="15dp"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/home_strContent"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/dateLy"
+                    android:layout_marginRight="@dimen/home_pager_marginRight"
+                    android:background="@drawable/one_home_page_text"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5dp"
+                    android:padding="10dp"
+                    android:text="我在快乐这两个字都不知道怎么写的年纪最快乐。 by 夏正正"
+                    android:textColor="@color/home_pager_content"/>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/laudTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="@dimen/home_pager_marginRight"
+                    android:text="200"/>
+
+                <ImageView
+                    android:id="@+id/laudIv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/laudTv"
+                    android:src="@drawable/laud"/>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

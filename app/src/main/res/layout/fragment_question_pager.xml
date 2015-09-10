@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dateTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/article_pager_marginLeft"
+            android:text="hhhhh"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/article_pager_marginLeft">
+
+            <ImageView
+                android:id="@+id/questionIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mobile_one_question_page_question_image"/>
+
+            <TextView
+                android:id="@+id/questionTitleTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="hhhhh"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/questionContentTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/article_pager_marginLeft"
+            android:text="hhhhh"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:layout_marginTop="10dp"
+            android:background="#B6B6B6"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/article_pager_marginLeft">
+
+            <ImageView
+                android:id="@+id/answerIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mobile_one_question_page_answer"/>
+
+            <TextView
+                android:id="@+id/answerTitleTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="hhhhh"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/answerContentTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/article_pager_marginLeft"
+            android:text="hhhhh"/>
+
+
+        <TextView
+            android:id="@+id/sEditorTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/article_pager_marginLeft"
+            android:text="hhhhh"/>
+
+        <TextView
+            android:id="@+id/laudTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/home_pager_marginRight"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/laud"
+            android:drawablePadding="3dp"
+            android:text="100"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

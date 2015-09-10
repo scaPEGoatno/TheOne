@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="transparent">#00000000</drawable>
+
+    <color name="topbar_color">#DCDCDC</color>
+    <color name="home_pager_content">#FFFFFF</color>
+</resources>
